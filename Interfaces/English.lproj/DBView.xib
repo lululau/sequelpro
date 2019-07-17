@@ -1236,7 +1236,7 @@
                                                                         <rect key="frame" x="561" y="4" width="16" height="16"/>
                                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                                                     </progressIndicator>
-                                                                    <button toolTip="Show/Hide table content filters (⌥⌘A)" horizontalHuggingPriority="750" verticalHuggingPriority="750" id="LYg-Ux-Lph">
+                                                                    <button toolTip="Show/Hide table content filters (⌥⌘G)" horizontalHuggingPriority="750" verticalHuggingPriority="750" id="LYg-Ux-Lph">
                                                                         <rect key="frame" x="155" y="-1" width="32" height="25"/>
                                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                         <buttonCell key="cell" type="roundTextured" bezelStyle="texturedRounded" image="button_filter" imagePosition="overlaps" alignment="center" alternateImage="button_filter_active" inset="2" id="WNc-7G-qPQ">
