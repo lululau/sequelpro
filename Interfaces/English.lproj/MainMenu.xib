@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6751" systemVersion="13F1507" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
     <dependencies>
         <deployment identifier="macosx"/>
-        <development version="5100" identifier="xcode"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6751"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14490.70"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -558,31 +557,37 @@
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="1125"/>
                             <menuItem title="Table Structure" keyEquivalent="1" id="497">
+                                <modifierMask key="keyEquivalentModifierMask" shift="YES" option="YES" command="YES"/>
                                 <connections>
                                     <action selector="viewStructure:" target="-1" id="501"/>
                                 </connections>
                             </menuItem>
                             <menuItem title="Table Content" keyEquivalent="2" id="499">
+                                <modifierMask key="keyEquivalentModifierMask" shift="YES" option="YES" command="YES"/>
                                 <connections>
                                     <action selector="viewContent:" target="-1" id="502"/>
                                 </connections>
                             </menuItem>
                             <menuItem title="Table Relations" keyEquivalent="3" id="928">
+                                <modifierMask key="keyEquivalentModifierMask" shift="YES" option="YES" command="YES"/>
                                 <connections>
                                     <action selector="viewRelations:" target="-1" id="929"/>
                                 </connections>
                             </menuItem>
                             <menuItem title="Table Triggers" keyEquivalent="4" id="1038">
+                                <modifierMask key="keyEquivalentModifierMask" shift="YES" option="YES" command="YES"/>
                                 <connections>
                                     <action selector="viewTriggers:" target="-1" id="1040"/>
                                 </connections>
                             </menuItem>
                             <menuItem title="Table Info" keyEquivalent="5" id="504">
+                                <modifierMask key="keyEquivalentModifierMask" shift="YES" option="YES" command="YES"/>
                                 <connections>
                                     <action selector="viewStatus:" target="-1" id="506"/>
                                 </connections>
                             </menuItem>
                             <menuItem title="Custom Query" keyEquivalent="6" id="500">
+                                <modifierMask key="keyEquivalentModifierMask" shift="YES" option="YES" command="YES"/>
                                 <connections>
                                     <action selector="viewQuery:" target="-1" id="503"/>
                                 </connections>
@@ -962,6 +967,56 @@
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="985"/>
+                            <menuItem title="Select Tab 1" keyEquivalent="1" id="vYj-MU-9ry">
+                                <connections>
+                                    <action selector="selectDocumentTab:" target="-1" id="1j4-Bs-IxH"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Select Tab 2" tag="1" keyEquivalent="2" id="tp5-Ha-xbh">
+                                <connections>
+                                    <action selector="selectDocumentTab:" target="-1" id="4eg-PJ-Btt"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Select Tab 3" tag="2" keyEquivalent="3" id="DDs-OX-qGt">
+                                <connections>
+                                    <action selector="selectDocumentTab:" target="-1" id="3cL-81-6TS"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Select Tab 4" tag="3" keyEquivalent="4" id="n2O-UM-16e">
+                                <connections>
+                                    <action selector="selectDocumentTab:" target="-1" id="dgM-oi-98e"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Select Tab 5" tag="4" keyEquivalent="5" id="eBg-01-eLy">
+                                <connections>
+                                    <action selector="selectDocumentTab:" target="-1" id="OH4-jU-hyu"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Select Tab 6" tag="5" keyEquivalent="6" id="oeQ-eT-eIc">
+                                <connections>
+                                    <action selector="selectDocumentTab:" target="-1" id="f1D-Ug-O06"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Select Tab 7" tag="6" keyEquivalent="7" id="S4d-kU-M1i">
+                                <connections>
+                                    <action selector="selectDocumentTab:" target="-1" id="4lW-B8-dZD"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Select Tab 8" tag="7" keyEquivalent="8" id="MlT-a5-ZP7">
+                                <connections>
+                                    <action selector="selectDocumentTab:" target="-1" id="Ncm-ui-OUl"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Select Tab 9" tag="8" keyEquivalent="9" id="IlP-Wz-8vj">
+                                <connections>
+                                    <action selector="selectDocumentTab:" target="-1" id="xUZ-dS-cxq"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Select Last Tab" tag="-1" keyEquivalent="0" id="T0W-aI-CyB">
+                                <connections>
+                                    <action selector="selectDocumentTab:" target="-1" id="xci-mc-Bz3"/>
+                                </connections>
+                            </menuItem>
                             <menuItem title="Select Next Tab" toolTip="Select the next tab in this window.  Can also be accessed via ⇧⌘] or ⌥⌘→" id="1103">
                                 <string key="keyEquivalent" base64-UTF8="YES">
 CQ

@@ -649,7 +649,7 @@ retry:
 			useSpellChecker = YES;
 
 		// Trigger the completion
-		[self doCompletionByUsingSpellChecker:useSpellChecker fuzzyMode:NO autoCompleteMode:YES];
+		[self doCompletionByUsingSpellChecker:useSpellChecker fuzzyMode:YES autoCompleteMode:YES];
 	}
 
 }

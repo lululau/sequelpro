@@ -203,6 +203,19 @@
 	}
 }
 
+
+- (IBAction)selectDocumentTab:(NSMenuItem *)sender
+{
+	NSInteger tag = [sender tag];
+	NSInteger count = [[tabView tabViewItems] count];
+	
+	if (tag >= 0 && tag < count) {
+		[tabView selectTabViewItemAtIndex: [sender tag]];
+	} else {
+		[tabView selectTabViewItemAtIndex: count - 1];
+	}
+}
+
 /**
  * Move the currently selected tab to a new window.
  */

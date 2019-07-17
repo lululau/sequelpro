@@ -68,6 +68,7 @@
 - (IBAction)selectNextDocumentTab:(id)sender;
 - (IBAction)selectPreviousDocumentTab:(id)sender;
 - (IBAction)toggleTabBarShown:(id)sender;
+- (IBAction)selectDocumentTab:(NSMenuItem *)sender;
 - (NSArray *)documents;
 - (void)selectTabAtIndex:(NSInteger)index;
 - (void)setHideForSingleTab:(BOOL)hide;
